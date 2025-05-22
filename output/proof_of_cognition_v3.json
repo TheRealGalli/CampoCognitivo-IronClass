@@ -1,0 +1,458 @@
+[
+  {
+    "bot_id": 8742,
+    "timestamp": "2025-05-05T17:52:02.935082",
+    "x": 250.93,
+    "y": 455.92,
+    "evento": "\u03a3-attivato",
+    "memoria": 1
+  },
+  {
+    "bot_id": 1709,
+    "timestamp": "2025-05-05T17:52:03.172640",
+    "x": 264.36,
+    "y": 470.45,
+    "evento": "\u03a3-attivato",
+    "memoria": 1
+  },
+  {
+    "bot_id": 1709,
+    "timestamp": "2025-05-05T17:52:03.189145",
+    "x": 263.87,
+    "y": 469.7,
+    "evento": "\u03a3-attivato",
+    "memoria": 2
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.359379",
+    "x": 259.68,
+    "y": 582.75,
+    "evento": "\u03a3-attivato",
+    "memoria": 1
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.375916",
+    "x": 259.65,
+    "y": 581.97,
+    "evento": "\u03a3-attivato",
+    "memoria": 2
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.393666",
+    "x": 260.44,
+    "y": 581.94,
+    "evento": "\u03a3-attivato",
+    "memoria": 3
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.410085",
+    "x": 260.46,
+    "y": 582.73,
+    "evento": "\u03a3-attivato",
+    "memoria": 4
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.427257",
+    "x": 259.68,
+    "y": 582.75,
+    "evento": "\u03a3-attivato",
+    "memoria": 5
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.444339",
+    "x": 259.65,
+    "y": 581.97,
+    "evento": "\u03a3-attivato",
+    "memoria": 6
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.461216",
+    "x": 260.44,
+    "y": 581.94,
+    "evento": "\u03a3-attivato",
+    "memoria": 7
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.478266",
+    "x": 260.46,
+    "y": 582.73,
+    "evento": "\u03a3-attivato",
+    "memoria": 8
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.495481",
+    "x": 259.68,
+    "y": 582.75,
+    "evento": "\u03a3-attivato",
+    "memoria": 9
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.512421",
+    "x": 259.65,
+    "y": 581.97,
+    "evento": "\u03a3-attivato",
+    "memoria": 10
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.529240",
+    "x": 260.44,
+    "y": 581.94,
+    "evento": "\u03a3-attivato",
+    "memoria": 11
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.545997",
+    "x": 260.46,
+    "y": 582.73,
+    "evento": "\u03a3-attivato",
+    "memoria": 12
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.562224",
+    "x": 259.68,
+    "y": 582.75,
+    "evento": "\u03a3-attivato",
+    "memoria": 13
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.579537",
+    "x": 259.65,
+    "y": 581.97,
+    "evento": "\u03a3-attivato",
+    "memoria": 14
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.596078",
+    "x": 260.44,
+    "y": 581.94,
+    "evento": "\u03a3-attivato",
+    "memoria": 15
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.613476",
+    "x": 260.46,
+    "y": 582.73,
+    "evento": "\u03a3-attivato",
+    "memoria": 16
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.630037",
+    "x": 259.68,
+    "y": 582.75,
+    "evento": "\u03a3-attivato",
+    "memoria": 17
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.647698",
+    "x": 259.65,
+    "y": 581.97,
+    "evento": "\u03a3-attivato",
+    "memoria": 18
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.664452",
+    "x": 260.44,
+    "y": 581.94,
+    "evento": "\u03a3-attivato",
+    "memoria": 19
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.681646",
+    "x": 260.46,
+    "y": 582.73,
+    "evento": "\u03a3-attivato",
+    "memoria": 20
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.698649",
+    "x": 259.68,
+    "y": 582.75,
+    "evento": "\u03a3-attivato",
+    "memoria": 21
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.715660",
+    "x": 259.65,
+    "y": 581.97,
+    "evento": "\u03a3-attivato",
+    "memoria": 22
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.732616",
+    "x": 260.44,
+    "y": 581.94,
+    "evento": "\u03a3-attivato",
+    "memoria": 23
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.750091",
+    "x": 260.46,
+    "y": 582.73,
+    "evento": "\u03a3-attivato",
+    "memoria": 24
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.767617",
+    "x": 259.68,
+    "y": 582.75,
+    "evento": "\u03a3-attivato",
+    "memoria": 25
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.785354",
+    "x": 259.65,
+    "y": 581.97,
+    "evento": "\u03a3-attivato",
+    "memoria": 26
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.802261",
+    "x": 260.44,
+    "y": 581.94,
+    "evento": "\u03a3-attivato",
+    "memoria": 27
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.819098",
+    "x": 260.46,
+    "y": 582.73,
+    "evento": "\u03a3-attivato",
+    "memoria": 28
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.835783",
+    "x": 259.68,
+    "y": 582.75,
+    "evento": "\u03a3-attivato",
+    "memoria": 29
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.853572",
+    "x": 259.65,
+    "y": 581.97,
+    "evento": "\u03a3-attivato",
+    "memoria": 30
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.870226",
+    "x": 260.44,
+    "y": 581.94,
+    "evento": "\u03a3-attivato",
+    "memoria": 31
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.887005",
+    "x": 260.46,
+    "y": 582.73,
+    "evento": "\u03a3-attivato",
+    "memoria": 32
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.903819",
+    "x": 259.68,
+    "y": 582.75,
+    "evento": "\u03a3-attivato",
+    "memoria": 33
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.921427",
+    "x": 259.65,
+    "y": 581.97,
+    "evento": "\u03a3-attivato",
+    "memoria": 34
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.938104",
+    "x": 260.44,
+    "y": 581.94,
+    "evento": "\u03a3-attivato",
+    "memoria": 35
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.954735",
+    "x": 260.46,
+    "y": 582.73,
+    "evento": "\u03a3-attivato",
+    "memoria": 36
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.972774",
+    "x": 259.68,
+    "y": 582.75,
+    "evento": "\u03a3-attivato",
+    "memoria": 37
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:03.989334",
+    "x": 259.65,
+    "y": 581.97,
+    "evento": "\u03a3-attivato",
+    "memoria": 38
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:04.006246",
+    "x": 260.44,
+    "y": 581.94,
+    "evento": "\u03a3-attivato",
+    "memoria": 39
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:04.023077",
+    "x": 260.46,
+    "y": 582.73,
+    "evento": "\u03a3-attivato",
+    "memoria": 40
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:04.040065",
+    "x": 259.68,
+    "y": 582.75,
+    "evento": "\u03a3-attivato",
+    "memoria": 41
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:04.057389",
+    "x": 259.65,
+    "y": 581.97,
+    "evento": "\u03a3-attivato",
+    "memoria": 42
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:04.073727",
+    "x": 260.44,
+    "y": 581.94,
+    "evento": "\u03a3-attivato",
+    "memoria": 43
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:04.093540",
+    "x": 260.46,
+    "y": 582.73,
+    "evento": "\u03a3-attivato",
+    "memoria": 44
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:04.108534",
+    "x": 259.68,
+    "y": 582.75,
+    "evento": "\u03a3-attivato",
+    "memoria": 45
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:04.132655",
+    "x": 259.65,
+    "y": 581.97,
+    "evento": "\u03a3-attivato",
+    "memoria": 46
+  },
+  {
+    "bot_id": 1447,
+    "timestamp": "2025-05-05T17:52:04.145475",
+    "x": 260.44,
+    "y": 581.94,
+    "evento": "\u03a3-attivato",
+    "memoria": 47
+  },
+  {
+    "bot_id": 1843,
+    "timestamp": "2025-05-05T17:52:05.487518",
+    "x": 246.78,
+    "y": 49.94,
+    "evento": "\u03a3-attivato",
+    "memoria": 1
+  },
+  {
+    "bot_id": 1843,
+    "timestamp": "2025-05-05T17:52:05.504619",
+    "x": 247.54,
+    "y": 49.16,
+    "evento": "\u03a3-attivato",
+    "memoria": 2
+  },
+  {
+    "bot_id": 7630,
+    "timestamp": "2025-05-05T17:52:05.761376",
+    "x": 259.46,
+    "y": 38.24,
+    "evento": "\u03a3-attivato",
+    "memoria": 1
+  },
+  {
+    "bot_id": 7630,
+    "timestamp": "2025-05-05T17:52:05.778647",
+    "x": 260.15,
+    "y": 37.72,
+    "evento": "\u03a3-attivato",
+    "memoria": 2
+  },
+  {
+    "bot_id": 5218,
+    "timestamp": "2025-05-05T17:52:06.116215",
+    "x": 222.01,
+    "y": 59.28,
+    "evento": "\u03a3-attivato",
+    "memoria": 1
+  },
+  {
+    "bot_id": 5218,
+    "timestamp": "2025-05-05T17:52:06.132659",
+    "x": 222.34,
+    "y": 58.58,
+    "evento": "\u03a3-attivato",
+    "memoria": 2
+  },
+  {
+    "bot_id": 5218,
+    "timestamp": "2025-05-05T17:52:06.150178",
+    "x": 223.04,
+    "y": 58.91,
+    "evento": "\u03a3-attivato",
+    "memoria": 3
+  }
+]

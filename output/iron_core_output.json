@@ -1,0 +1,42 @@
+[
+  {
+    "step": 0,
+    "fusion_state": 0.99
+  },
+  {
+    "step": 10000,
+    "fusion_state": 0.99
+  },
+  {
+    "step": 20000,
+    "fusion_state": 0.99
+  },
+  {
+    "step": 30000,
+    "fusion_state": 0.99
+  },
+  {
+    "step": 40000,
+    "fusion_state": 0.99
+  },
+  {
+    "step": 50000,
+    "fusion_state": 0.99
+  },
+  {
+    "step": 60000,
+    "fusion_state": 0.99
+  },
+  {
+    "step": 70000,
+    "fusion_state": 0.99
+  },
+  {
+    "step": 80000,
+    "fusion_state": 0.99
+  },
+  {
+    "step": 90000,
+    "fusion_state": 0.99
+  }
+]

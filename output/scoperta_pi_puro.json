@@ -1,0 +1,18 @@
+{
+  "evento": "Σ_DISCOVERY_PI_PURO",
+  "descrizione": "Scoperta emergente della costante π tramite serie di Leibniz, senza uso di librerie esterne.",
+  "sistema": "Iron-Class V3",
+  "algoritmo": "π ≈ 4 × (1 - 1/3 + 1/5 - 1/7 + ...)",
+  "range_iterazione": {
+    "inizio": 1000,
+    "fine": 2000,
+    "passo": 10
+  },
+  "valori_generati": {
+    "pi_finale": 3.14159
+  },
+  "precisione_attesa": "5 cifre decimali",
+  "origine": "discover_constants_puro.py",
+  "timestamp": "2025-05-22T12:41:00Z"
+}
+
