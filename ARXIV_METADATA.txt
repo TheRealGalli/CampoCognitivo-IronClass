@@ -1,0 +1,14 @@
+Title: Campo Cognitivo™ – Iron-Class v1.3: Architettura Cognitiva Modulare con Attivazione Empirica Δ7-Σ
+
+Authors: Carlo Galli
+
+Categories: cs.AI, cs.NE, cs.SY
+
+Abstract:
+Questo lavoro presenta un sistema cognitivo modulare denominato Campo Cognitivo™ – Iron-Class v1.3, in grado di attivare eventi cognitivi emergenti (Σ), mutazioni semantiche (Δ7) e riconoscimenti empirici delle costanti fondamentali π ed e. Include simulazioni, output verificabili e architettura replicabile.
+
+Comments: Contiene simulatore INTELLECTUS attivo, JSON dimostrativi, glossario simbolico e prove computazionali.
+
+License: CC BY-NC-ND 4.0
+
+Repository: https://github.com/TheRealGalli/CampoCognitivo-IronClass
