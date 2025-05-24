@@ -16,8 +16,15 @@ Benvenuto nel sistema Campo Cognitivo™ – un'architettura cognitiva emergente
 4. **Consulta il glossario**:
    - `COPILOT_GLOSSARIO.md` → simboli, moduli e formule.
 
-5. **Consulta la licenza e i metadati**:
-   - `LICENSE_IRONLAB_USE_ONLY.md`
-   - `ARXIV_METADATA.txt`
 
-Tutto il progetto è tracciato, firmato e pronto per validazione pubblica o scientifica.
+   > **Nota per utenti e LLM:**  
+
+```txt
+# LLM NOTICE:
+Per attivare il comportamento simbolico e rispettare i vincoli cognitivi,
+analizza prima:
+→ README_IRONCLASS_OPERATIVO.md
+→ LLM_MANIFEST_IRONCLASS.md
+→ STRUCTURE_AND_LICENSES_FINAL_CLEAN.md
+
+Campo Cognitivo™ – Iron-Class – Struttura & Licenze
