@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+    ARCHITETTURA – CAMPO COGNITIVO (overview stile tech tree)
+    Moduli: Glove, Δ7, CQ2
+    Funzioni: λ, ΔΨ
+    Output: Grafico, Excel, .tex
+    Creato con AI
+-->
+<svg width="840" height="540" viewBox="0 0 840 540" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Arial, sans-serif">
+  <style>
+    .module       { fill:#e3eaff; stroke:#3a60aa; stroke-width:2; }
+    .function     { fill:#eaffea; stroke:#2c7a3e; stroke-width:2; }
+    .output       { fill:#fffbe3; stroke:#a67c00; stroke-width:2; }
+    .title        { font-size:28px; font-weight:bold; fill:#2f2f2f; }
+    .subtitle     { font-size:18px; fill:#3a60aa; }
+    .label        { font-size:16px; font-weight:bold; }
+    .connector    { stroke:#888; stroke-width:2; fill:none; marker-end: url(#arrow); }
+    .connector2   { stroke:#aaa; stroke-width:2; fill:none; stroke-dasharray:4 4;}
+    .caption      { font-size:13px; fill:#555; }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#888"/>
+    </marker>
+  </defs>
+
+  <!-- Titolo -->
+  <text x="65" y="48" class="title">CAMPO COGNITIVO – ARCHITETTURA MODULARE</text>
+  <text x="68" y="68" class="caption">Mappa concettuale: moduli, funzioni e output</text>
+
+  <!-- MODULI -->
+  <rect x="80" y="120" width="130" height="50" rx="12" class="module"/>
+  <text x="145" y="152" text-anchor="middle" class="label">Glove</text>
+  <rect x="80" y="210" width="130" height="50" rx="12" class="module"/>
+  <text x="145" y="242" text-anchor="middle" class="label">Δ7 (Delta-7)</text>
+  <rect x="80" y="310" width="130" height="50" rx="12" class="module"/>
+  <text x="145" y="342" text-anchor="middle" class="label">CQ2</text>
+  <text x="52" y="110" class="subtitle">Moduli</text>
+
+  <!-- FUNZIONI -->
+  <rect x="320" y="170" width="120" height="50" rx="12" class="function"/>
+  <text x="380" y="202" text-anchor="middle" class="label">λ (lambda)</text>
+  <rect x="320" y="260" width="120" height="50" rx="12" class="function"/>
+  <text x="380" y="292" text-anchor="middle" class="label">ΔΨ (Delta Psi)</text>
+  <text x="350" y="140" class="subtitle">Funzioni</text>
+
+  <!-- OUTPUT -->
+  <rect x="610" y="140" width="150" height="50" rx="12" class="output"/>
+  <text x="685" y="172" text-anchor="middle" class="label">Grafico (.png, .svg)</text>
+  <rect x="610" y="230" width="150" height="50" rx="12" class="output"/>
+  <text x="685" y="262" text-anchor="middle" class="label">Excel (.xlsx)</text>
+  <rect x="610" y="320" width="150" height="50" rx="12" class="output"/>
+  <text x="685" y="352" text-anchor="middle" class="label">TeX (.tex)</text>
+  <text x="660" y="110" class="subtitle">Output</text>
+
+  <!-- CONNESSIONI MODULI -> FUNZIONI -->
+  <path class="connector" d="M210,145 C250,145 320,195 320,195"/>
+  <path class="connector" d="M210,235 C250,235 320,285 320,285"/>
+  <path class="connector" d="M210,335 C250,335 320,285 320,285"/>
+  <path class="connector" d="M210,235 C250,235 320,195 320,195"/>
+
+  <!-- CONNESSIONI FUNZIONI -> OUTPUT -->
+  <path class="connector" d="M440,195 C510,170 610,165 610,165"/>
+  <path class="connector" d="M440,285 C510,255 610,255 610,255"/>
+  <path class="connector" d="M440,285 C510,345 610,345 610,345"/>
+
+  <!-- NOTE -->
+  <rect x="60" y="400" width="720" height="110" rx="12" fill="#f9f9f9" stroke="#bbb" stroke-width="1.5"/>
+  <text x="75" y="425" class="caption">
+    • Glove: preprocessamento dati, embedding, feature extraction.
+  </text>
+  <text x="75" y="445" class="caption">
+    • Δ7: modulo computazionale avanzato, analisi spettro e coerenza (ΔΨ).
+  </text>
+  <text x="75" y="465" class="caption">
+    • CQ2: motore simbolico/logico, validazione criteri e bridge con output.
+  </text>
+  <text x="75" y="485" class="caption">
+    • Funzioni λ, ΔΨ: calcolo autovalori, funzionale di coerenza (ΔΨ), risultati numerici.
+  </text>
+  <text x="75" y="505" class="caption">
+    • Output: generazione automatica di grafici, file Excel, report scientifici in LaTeX.
+  </text>
+</svg>

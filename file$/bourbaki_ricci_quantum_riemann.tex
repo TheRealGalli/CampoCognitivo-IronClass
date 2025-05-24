@@ -1,0 +1,106 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\title{Struttura Bourbaki: Operatore Ricci su Varietà, Funzionale di Coerenza, Zeri di $\zeta(s)$}
+\author{}
+\date{}
+
+\theoremstyle{definition}
+\newtheorem{defn}{Definizione}
+\newtheorem{lem}{Lemma}
+\newtheorem{thm}{Teorema}
+
+\begin{document}
+
+\section*{1. Definizioni}
+
+\begin{defn}[Varietà Riemanniana]
+Sia $M$ una varietà differenziabile di dimensione $n$, $g$ una metrica riemanniana su $M$.
+\end{defn}
+
+\begin{defn}[Tensore di Ricci]
+Sia $R^i_{\phantom{i}jkl}$ il tensore di Riemann. Si pone:
+\[
+\operatorname{Ric}_{jk} = R^i_{\phantom{i}jik}
+\]
+\end{defn}
+
+\begin{defn}[Operatore di Laplace-Beltrami]
+Per $f \in C^\infty(M)$,
+\[
+\Delta_g f = \frac{1}{\sqrt{|g|}}\partial_i\left(\sqrt{|g|}g^{ij}\partial_j f\right)
+\]
+\end{defn}
+
+\begin{defn}[Operatore Ricci quantistico]
+Si definisce
+\[
+H = -\Delta_g + V(\operatorname{Ric})
+\]
+dove $V$ è funzione analitica della curvatura Ricci.
+\end{defn}
+
+\begin{defn}[Funzionale di coerenza]
+Dato $\Psi \in L^2(M)$,
+\[
+\Delta\Psi := \|H\Psi - \lambda\Psi\|_{L^2}
+\]
+\end{defn}
+
+\section*{2. Calcolo esplicito: Tensore di Ricci per la metrica sferica}
+
+Coordinate sferiche: $x^1 = r$, $x^2 = \theta$, $x^3 = \phi$.
+
+Metrica:
+\[
+g_{ij} = \begin{pmatrix}
+1 & 0 & 0 \\
+0 & r^2 & 0 \\
+0 & 0 & r^2\sin^2\theta
+\end{pmatrix}
+\]
+
+Calcolo (passaggi essenziali):
+
+- Il tensore di Riemann su $S^2$ ha solo una componente indipendente.
+- Ricci:
+\[
+\operatorname{Ric}_{\theta\theta} = 1
+\]
+\[
+\operatorname{Ric}_{\phi\phi} = \sin^2\theta
+\]
+\[
+\operatorname{Ric}_{rr} = 0
+\]
+In generale, su $S^2$ di raggio $r$:
+\[
+\operatorname{Ric}_{ij} = \frac{1}{r^2}g_{ij}
+\]
+
+\section*{3. Spettro dell'operatore $H$ su $S^2$}
+
+\[
+-\Delta_{S^2} Y_{lm} = \frac{l(l+1)}{r^2} Y_{lm}
+\]
+Se $V$ costante, autovalori:
+\[
+\lambda_l = \frac{l(l+1)}{r^2} + V
+\]
+\[
+l = 0,1,2,\dots
+\]
+
+\section*{4. Collegamento con $\zeta(s)$ (enunciato)}
+
+Assumendo $H$ autoaggiunto con spettro semplice, si postula che esista una corrispondenza
+\[
+\text{zeri di } \zeta(s) \longleftrightarrow \text{spettro di } H
+\]
+via $s_n = \frac{1}{2} + i\lambda_n$.
+
+\section*{5. Dimostrazione per assurdo (outline)}
+
+Supponiamo che $\zeta(s_0)=0$ con $\Re(s_0)\neq 1/2$.  
+Per la corrispondenza spettrale, $\lambda_{s_0}$ non reale $\implies$ $H$ non autoaggiunto $\implies$ Contraddizione.
+
+\end{document}

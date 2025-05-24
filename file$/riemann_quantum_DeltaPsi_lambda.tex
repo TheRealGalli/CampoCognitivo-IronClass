@@ -1,0 +1,66 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{hyperref}
+
+\title{Formalizzazione: Funzionale $\Delta\Psi$ e Spettro $\lambda$}
+\author{(Autore)}
+\date{\today}
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definizione}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{theorem}{Teorema}[section]
+\newtheorem{corollary}{Corollario}[section]
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Si espone una catena logica Definizione $\rightarrow$ Lemma $\rightarrow$ Teorema $\rightarrow$ Corollario fondata sul funzionale $\Delta\Psi$ e sullo spettro $\lambda$, in analogia con il collegamento tra analisi spettrale e zeri di funzioni zeta.
+\end{abstract}
+
+\section{Impostazione}
+
+Sia $\mathcal{H}$ uno spazio di Hilbert, $H: \mathcal{D}(H)\subset\mathcal{H} \to \mathcal{H}$ un operatore autoaggiunto, e $\Psi \in \mathcal{H}$.
+
+\begin{definition}[Funzionale di Coerenza]
+Dato $\lambda \in \mathbb{C}$, si definisce il funzionale
+\[
+\Delta\Psi(\lambda) := \| H\Psi - \lambda\Psi \|_{\mathcal{H}}
+\]
+\end{definition}
+
+\begin{lemma}
+$\Delta\Psi(\lambda) = 0$ se e solo se $\Psi$ è autovettore di $H$ con autovalore $\lambda$.
+\end{lemma}
+
+\begin{proof}
+Per definizione, $\Delta\Psi(\lambda) = 0$ se e solo se $H\Psi = \lambda\Psi$ (in senso forte), ovvero $\Psi$ è autovettore di $H$ per $\lambda$.
+\end{proof}
+
+\begin{theorem}[Spettro e Zeri del Funzionale]
+Siano $\sigma(H)$ lo spettro di $H$. Allora:
+\[
+\exists\, \Psi \neq 0 : \Delta\Psi(\lambda) = 0 \iff \lambda \in \sigma_p(H)
+\]
+dove $\sigma_p(H)$ è lo spettro puntuale (autovalori) di $H$.
+\end{theorem}
+
+\begin{proof}
+Per il Lemma precedente, $\Delta\Psi(\lambda) = 0$ solo per $\Psi$ autovettore, cioè $\lambda$ autovalore. Viceversa, se $\lambda$ è autovalore, esiste autovettore $\Psi \neq 0$ tale che $H\Psi = \lambda\Psi$.
+\end{proof}
+
+\begin{corollary}[Corrispondenza Spettrale]
+Se esiste una corrispondenza tra autovalori $\lambda_n$ di $H$ e una successione $\{\mu_n\} \subset \mathbb{C}$ (ad esempio parte immaginaria degli zeri di una funzione zeta), allora
+\[
+\forall n, \exists\, \Psi_n \neq 0 : \Delta\Psi_n(\lambda_n) = 0
+\]
+e la struttura degli zeri di $\Delta\Psi$ riflette la struttura spettrale di $H$.
+\end{corollary}
+
+\section{Osservazione}
+
+Questa struttura permette di investigare, tramite il funzionale $\Delta\Psi$, l’allineamento tra dati numerici (coerenza massima) e lo spettro teorico dell’operatore, con possibili applicazioni alla connessione tra funzioni zeta e operatori quantistici.
+
+\end{document}
